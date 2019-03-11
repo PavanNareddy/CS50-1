@@ -35,9 +35,13 @@
 	</style>
 </head>
 <body>
-<h1>Hello World!!!</h1>
-<<<<<<< HEAD
-<table>
+	<ul>
+		<li><a href="#123">Press to view table</a></li>
+		<li><a href="#321">press to view List</a></li>
+		<li><a href="#456">press to enter Form</a></li>
+	</ul>
+<h1>Hello World!!! This is Pavan Kumar Reddy i am from gurunanak college</h1>
+<table id="123">
 	<tr id="Head">
 		<th>Name</th>
 		<th>Address</th>
@@ -59,7 +63,7 @@
 		<td>9440793638</td>
 	</tr>
 </table>
-<list>
+<list id="321">
 	<ol>
 		<li>pavan</li>
 		<li>pranay</li>
@@ -71,11 +75,32 @@
 		<li>grapes</li>
 	</ul>
 </list>	
-<form>
-	<input type="text" placeholder="enter your name" name="name">
-	<button>Submit</button>
+<form id="456">
+	<div>
+		<input type="text" placeholder="enter your name" name="name">
+		<input type="password" placeholder="password" name="pass">
+		<button>Submit</button>
+	</div>
+	<div>
+		Favorite color?
+		<input type="radio" name="color" value="orange">Orange
+		<input type="radio" name="color" value="red">red
+		<input type="radio" name="color" value="green">green
+		<input type="radio" name="color" value="violet">violet
+	</div>
+	<div>
+		<input name="country" list="country" placeholder="country">
+		<datalist id="country">
+			<option value="India">
+			<option value="japan">
+			<option value="china">
+			<option value="Pakisthan">
+		</datalist>
+		<button>submit </button>
+	</div>
 </form>
-<a href="www.google.com"> google</a>
+<a href="https://google.com"> google</a>
 <h1 style="color:red;text-align: center">This is Pavan Reddy</h1>
+
 </body>
 </html>
